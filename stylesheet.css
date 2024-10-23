@@ -1,0 +1,71 @@
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 70%; 
+    /*se puede tambien en 1100 px*/
+    margin: 0px auto; 
+    /* centrar elemantos*/
+
+}
+
+header{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    /* centrar texto*/
+    line-height: 100px;
+    /* al poner la misma altura de la caja, 
+    texto se alinea en medio*/
+    color: white;
+}
+
+h1{
+    margin: 0px;
+}
+
+nav{
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+nav ul li{
+    float: left;
+    /* elementos se coloquen en fila 
+    uno al lado del otro */
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+.clearfix {
+    clear: both;
+    /* elementos "no suban" y se queden en su sitio*/
+}
+
+#content{
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    /*altura minima del elemento*/
+    background-color: green;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    background-color: orange;
+    min-height: 500px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
