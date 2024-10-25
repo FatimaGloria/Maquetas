@@ -1,4 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
+    
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,7 +13,7 @@ body{
     width: 70%; 
     /*se puede tambien en 1100 px*/
     margin: 0px auto; 
-    /* centrar elemantos*/
+    /* centrar elementos*/
 
 }
 
