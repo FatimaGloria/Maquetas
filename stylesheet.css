@@ -10,8 +10,8 @@ body{
 }
 
 #container{
-    width: 70%; 
-    /*se puede tambien en 1100 px*/
+    width: 1100px; 
+    /* se puede tambien en 70% */
     margin: 0px auto; 
     /* centrar elementos*/
 
